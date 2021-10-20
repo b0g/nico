@@ -1257,6 +1257,7 @@ input, select, textarea {
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		max-width: 100%;
 		text-align: center;
+		box-sizing: content-box;
 	}
 
 		#header > * {
@@ -1655,6 +1656,7 @@ input, select, textarea {
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
+		font-size: small;
 	}
 
 		#footer .copyright {
